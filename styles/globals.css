@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'MT-black';
+  src: url('../public/font/CinzelDecorative-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'MT-smol';
+  src: url('../public/font/Triong/Trirong-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'MT-smol-italic';
+  src: url('../public/font/Triong/Trirong-MediumItalic.ttf');
+}
