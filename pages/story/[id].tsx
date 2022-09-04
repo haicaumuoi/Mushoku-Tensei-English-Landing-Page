@@ -108,7 +108,7 @@ function Story({
 
         <div className="w-2/3 h-28 my-2 flex justify-between">
           <div
-            className="w-17.5 relative cursor-pointer"
+            className="w-17.5 relative cursor-pointer transition-all"
             defaultValue="1"
             id="div1"
           >
@@ -124,7 +124,7 @@ function Story({
           </div>
 
           <div
-            className="w-17.5 relative cursor-pointer opacity-40"
+            className="w-17.5 relative cursor-pointer transition-all opacity-40"
             defaultValue="2"
             id="div2"
           >
@@ -140,7 +140,7 @@ function Story({
           </div>
 
           <div
-            className="w-17.5 relative cursor-pointer opacity-40"
+            className="w-17.5 relative cursor-pointer transition-all opacity-40"
             defaultValue="3"
             id="div3"
           >
@@ -156,7 +156,7 @@ function Story({
           </div>
 
           <div
-            className="w-17.5 relative cursor-pointer opacity-40"
+            className="w-17.5 relative cursor-pointer transition-all opacity-40"
             defaultValue="4"
             id="div4"
           >
@@ -172,7 +172,7 @@ function Story({
           </div>
 
           <div
-            className="w-17.5 relative cursor-pointer opacity-40"
+            className="w-17.5 relative cursor-pointer transition-all opacity-40"
             defaultValue="5"
             id="div5"
           >

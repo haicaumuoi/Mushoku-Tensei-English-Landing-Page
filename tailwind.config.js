@@ -25,6 +25,10 @@ module.exports = {
         mt_smol: ['MT-smol', 'cursive'],
         mt_smol_italic: ['MT-smol-italic', 'cursive'],
       },
+
+      textIndent: {
+        nametag: '-100000px',
+      },
     },
   },
   plugins: [],
