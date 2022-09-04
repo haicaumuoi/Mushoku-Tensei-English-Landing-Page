@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
-import ClickPlayHome from '../utilities/click_play_animation';
+import ClickPlayHome from '../components/utilities/click_play_animation';
 import movieHomeImg from '../public/images/movie-img-home.png';
 
 const Home: NextPage = () => {

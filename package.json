@@ -6,9 +6,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-easy-swipe": "^0.0.22",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0"
   },
