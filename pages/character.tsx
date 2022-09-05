@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { characterData } from '../public/content/character_data';
 
 export default function character() {
-  console.log(characterData);
   return (
     <div className="flex flex-col items-center mt-20">
       <div>
@@ -30,11 +29,12 @@ export default function character() {
           </div>
         </div>
       </div>
-
-      <div className="w-8/12 h-screen mb-10 mx-auto flex mt-5">
+      <span className="w-2/3 h-3 bg-black absolute -skew-x-12 top-[26.6rem] -left-32"></span>
+      <span className="w-1/3 h-3 bg-black absolute -skew-x-12 top-[26.6rem] -right-[17rem]"></span>
+      <div className="w-8/12 h-screen mb-10 mx-auto flex mt-5 bg-roundBackground bg-no-repeat bg-bg_character bg-center">
         <div className="w-1/2 h-20 pl-5">
           <Image
-            src={characterData[6].characterImg}
+            src={characterData[3].characterImg}
             alt="avatar"
             width={340}
             height={655}
@@ -44,14 +44,14 @@ export default function character() {
           ></Image>
         </div>
         <div className="mt-32 w-1/2 h-5/6 flex flex-col items-center ">
-          <div className="h-auto text-4xl font-mt_black mb-10">
-            {characterData[6].nametag}
+          <div className="h-auto text-4xl font-mt_black mb-10 bg-white px-4">
+            {characterData[3].nametag}
           </div>
-          <div className="font-mt_smol">{characterData[6].desc}</div>
+          <div className="font-mt_smol">{characterData[3].desc}</div>
 
           <div className="mt-10">
             <Image
-              src={characterData[6].facesImg}
+              src={characterData[3].facesImg}
               alt="avatar"
               width={405}
               height={191}

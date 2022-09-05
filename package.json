@@ -12,7 +12,10 @@
     "react-dom": "18.1.0",
     "react-easy-swipe": "^0.0.22",
     "react-icons": "^4.4.0",
-    "react-router-dom": "^6.3.0"
+    "react-modal-video": "^1.2.10",
+    "react-player": "^2.10.1",
+    "react-router-dom": "^6.3.0",
+    "reactjs-popup": "^2.0.5"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
@@ -22,5 +25,20 @@
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.2",
     "typescript": "4.7.2"
-  }
+  },
+  "name": "mt-project",
+  "description": "This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaiCauMuoi/Mushoku-Tensei-English-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaiCauMuoi/Mushoku-Tensei-English-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/HaiCauMuoi/Mushoku-Tensei-English-Landing-Page#readme"
 }
