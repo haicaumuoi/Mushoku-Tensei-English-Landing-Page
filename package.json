@@ -8,11 +8,13 @@
   "dependencies": {
     "gray-matter": "^4.0.3",
     "next": "latest",
+    "pure-react-carousel": "^1.29.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-easy-swipe": "^0.0.22",
     "react-icons": "^4.4.0",
     "react-modal-video": "^1.2.10",
+    "react-multi-carousel": "^2.8.2",
     "react-player": "^2.10.1",
     "react-router-dom": "^6.3.0",
     "reactjs-popup": "^2.0.5"

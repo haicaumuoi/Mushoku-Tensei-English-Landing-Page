@@ -20,7 +20,7 @@ export const characterData: {
     characterImg: '/images/characterDescription/noname/character.png',
     facesImg: '',
     avatar: '/images/character/noname.png',
-    desc: 'He is a 34-year-old unemployed virgin recluse. He was kicked out of his house, and shortly afterwards he died in an accident while trying to save a high school student who was about to be hit by a truck, and was reincarnated as Rudeus Greyrat. Taking the opportunity of his reincarnation, he decides to live seriously this time.',
+    desc: 'She is a 34-year-old unemployed virgin recluse. He was kicked out of his house, and shortly afterwards he died in an accident while trying to save a high school student who was about to be hit by a truck, and was reincarnated as Rudeus Greyrat. Taking the opportunity of his reincarnation, he decides to live seriously this time.',
   },
   {
     id: '3',
