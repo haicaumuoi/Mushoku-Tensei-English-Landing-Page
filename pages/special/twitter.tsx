@@ -15,7 +15,7 @@ function twitter() {
         </div>
       </div>
 
-      <div className="w-8/12 flex justify-between items-center h-52 mx-auto flex-wrap mt-16">
+      <div className="w-8/12 flex justify-between items-center mx-auto flex-wrap mt-16">
         <a
           href={
             'https://twitter.com/mushokutensei_A/status/1348827038531137539?s=20'
