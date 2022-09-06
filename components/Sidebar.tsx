@@ -23,7 +23,7 @@ function Sidebar() {
               <li className="rounded-sm">
                 <a
                   href="#"
-                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest"
+                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest hover:opacity-50 transition-all"
                 >
                   <span>ON AIR</span>
                 </a>
@@ -31,7 +31,7 @@ function Sidebar() {
             </Link>
             <Link href={'/introduction'}>
               <li className="rounded-sm">
-                <span className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest cursor-pointer">
+                <span className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest cursor-pointer hover:opacity-50 transition-all">
                   INTRODUCTION
                 </span>
               </li>
@@ -40,7 +40,7 @@ function Sidebar() {
               <li className="rounded-sm">
                 <a
                   href="#"
-                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest"
+                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest hover:opacity-50 transition-all"
                 >
                   <span>STORY</span>
                 </a>
@@ -50,7 +50,7 @@ function Sidebar() {
               <li className="rounded-sm">
                 <a
                   href="#"
-                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest"
+                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest hover:opacity-50 transition-all"
                 >
                   <span>CHARACTER</span>
                 </a>
@@ -60,7 +60,7 @@ function Sidebar() {
               <li className="rounded-sm">
                 <a
                   href="#"
-                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest"
+                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest hover:opacity-50 transition-all"
                 >
                   <span>MOVIE</span>
                 </a>
@@ -70,7 +70,7 @@ function Sidebar() {
               <li className="rounded-sm">
                 <a
                   href="#"
-                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest"
+                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest hover:opacity-50 transition-all"
                 >
                   <span>BLURAY</span>
                 </a>
@@ -80,7 +80,7 @@ function Sidebar() {
               <li className="rounded-sm">
                 <a
                   href="#"
-                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest"
+                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest hover:opacity-50 transition-all"
                 >
                   <span>MUSIC</span>
                 </a>
@@ -90,7 +90,7 @@ function Sidebar() {
               <li className="rounded-sm">
                 <a
                   href="#"
-                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest"
+                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest hover:opacity-50 transition-all"
                 >
                   <span>RADIO</span>
                 </a>
@@ -100,7 +100,7 @@ function Sidebar() {
               <li className="rounded-sm">
                 <a
                   href="#"
-                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest"
+                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest hover:opacity-50 transition-all"
                 >
                   <span>BOOKS</span>
                 </a>
@@ -110,7 +110,7 @@ function Sidebar() {
               <li className="rounded-sm">
                 <a
                   href="#"
-                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest"
+                  className="flex items-center p-2 space-x-3 rounded-md font-mt_black text-white tracking-widest hover:opacity-50 transition-all"
                 >
                   <span>SPECIAL</span>
                 </a>
@@ -120,7 +120,7 @@ function Sidebar() {
               <a
                 href="https://www.facebook.com/hainnnnnnnnn/"
                 target={'_blank'}
-                className="p-2 text-white text-2xl "
+                className="p-2 text-white text-2xl hover:opacity-50 transition-all"
               >
                 <span>
                   <BsFacebook />
@@ -129,7 +129,7 @@ function Sidebar() {
               <a
                 href="https://github.com/HaiCauMuoi"
                 target={'_blank'}
-                className="p-2 text-white text-2xl ml-3"
+                className="p-2 text-white text-2xl ml-3 hover:opacity-50 transition-all"
               >
                 <span>
                   <BsGithub />

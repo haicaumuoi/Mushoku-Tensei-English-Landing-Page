@@ -8,6 +8,7 @@
   "dependencies": {
     "gray-matter": "^4.0.3",
     "next": "latest",
+    "nprogress": "^0.2.0",
     "pure-react-carousel": "^1.29.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "@types/node": "17.0.35",
+    "@types/nprogress": "^0.2.0",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.5",
     "autoprefixer": "^10.4.7",

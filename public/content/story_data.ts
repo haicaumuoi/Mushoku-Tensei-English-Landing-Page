@@ -205,11 +205,11 @@ export const storyData: {
     name: 'Eris The Goblin Slayer',
     synopsis:
       'While Rudeus reunites with his father in Millishion, Eris sets out to fulfill her dream of slaying goblins. While at the Adventures’ Guild, however, she encounters Cliff, a conceited young mage who threatens to spoil her adventure.',
-    img1: '/images/story/ep16/img-1.jpg',
-    img2: '/images/story/ep16/img-2.jpg',
-    img3: '/images/story/ep16/img-3.jpg',
-    img4: '/images/story/ep16/img-4.jpg',
-    img5: '/images/story/ep16/img-5.jpg',
+    img1: '/images/story/ep16.5/img-1.jpg',
+    img2: '/images/story/ep16.5/img-2.jpg',
+    img3: '/images/story/ep16.5/img-3.jpg',
+    img4: '/images/story/ep16.5/img-4.jpg',
+    img5: '/images/story/ep16.5/img-5.jpg',
   },
 
   {
