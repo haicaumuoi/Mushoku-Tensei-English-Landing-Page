@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import { radioData } from '../public/content/radioVideo';
 import ReactPlayer from 'react-player';
 import dynamic from 'next/dynamic';
+import Modal from '../components/utilities/modal';
 
 export default function radio() {
   const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
@@ -26,7 +27,8 @@ export default function radio() {
     setModal(!isOpen);
   };
 
-  // useEffect(() => playVideo(video), []);
+  console.log(video);
+
   return (
     <>
       <div
@@ -63,9 +65,7 @@ export default function radio() {
         </div>
 
         <div className="my-10 w-1/2 text-center font-mt_smol">
-          *Because I won't put the episodes's podcasts with full Japanese
-          directors talking without subtitles, I'm gonna put some viral videos
-          about the series on this page*
+          Popular Videos on Mushoku Tensei
         </div>
 
         <div className="w-3/4 h-auto ml-16">

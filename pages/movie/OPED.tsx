@@ -5,7 +5,7 @@ import Link from 'next/link';
 import ReactPlayer from 'react-player';
 import dynamic from 'next/dynamic';
 
-function index({ index }: number) {
+function OPED() {
   const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 
   const [video, setPlayVideo] = useState(movieData[0].youtubeLink);
@@ -25,7 +25,6 @@ function index({ index }: number) {
     document.getElementById('modal')?.classList.add('hidden');
     setModal(!isOpen);
   };
-
   return (
     <>
       {' '}
@@ -69,7 +68,7 @@ function index({ index }: number) {
             <ul>
               <li>
                 <Link href={'/movie'}>
-                  <div className="font-mt_black mb-5 cursor-pointer hover:opacity-50 transition-all bg-text_bg inline-block">
+                  <div className="font-mt_black mb-5 cursor-pointer hover:opacity-50 transition-all ">
                     All Content
                   </div>
                 </Link>
@@ -77,7 +76,7 @@ function index({ index }: number) {
               <li>
                 <Link href={'/movie/OPED'}>
                   <div
-                    className="font-mt_black mb-5 cursor-pointer hover:opacity-50 transition-all"
+                    className="font-mt_black mb-5 cursor-pointer hover:opacity-50 transition-all bg-text_bg inline-block"
                     id="1"
                   >
                     OP/ED
@@ -98,35 +97,36 @@ function index({ index }: number) {
 
             <div className="ml-20 border-l border-l-black w-9/12">
               <div className=" font-mt_black text-2xl ml-10 pl-10 bg-movieIcon bg-no-repeat bg-contain">
-                All content
+                Opening & Ending
               </div>
               <div className="mt-10 ml-8 font-mt_smol pb-10 border-b border-b-black  w-full">
                 <ul className="w-full flex justify-start items-center flex-wrap">
                   {movieData.map((movie) => {
-                    return (
-                      <li className="mx-4 pb-10 hover:opacity-40 transition-all cursor-pointer">
-                        <div className="relative inline-block">
-                          <Image
-                            src={movie.thumbail}
-                            alt="story"
-                            width={174}
-                            height={97}
-                            className="brightness-50"
-                            onClick={openModal}
-                            id={movie.id}
-                          ></Image>{' '}
-                          <img
-                            className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABWUlEQVRoge2ZPU4DMRBGZ4GQBjpamhwAiYaGG3AIbsCPBAfgCpS0lLRcAAlRkvTUtElFgxA8CjQSIZD1rtcezeJXb/G9lWV/HosUCoXCd4BzYN06RzR88QQcWGeJgnlugZF1plawyCtwCWxaZ2vELyLKM3AIVNYZg1giotwBO9Y5awkQAXgHroEt67x/EiiiTIETYNU69wINRZQxsG+dfY6WIgAfwA2wbe0gIlEiygtwAQy9iyi27aBDEcWmHSQQAYt2kEhEydcOEoso6dtBJhGAN+CKVO0go4jSqB0Er0mA9r8hiomIHFVV9bDso5VMYWLYFZF7atqBB5Eg1qwDBDAWkWPPS2smIqcislcn0YiMu1Uvtl/3B6L7iqKlcSO5QEIR9zXe/cXK/VW3F8OHR5yPg9wP6NKeyl0QIOF+iO3+WSH/qdwFPyTcP7314jH0DBhY5ygUCv+cTyS4gJtcT/1lAAAAAElFTkSuQmCC"
-                          ></img>
-                        </div>
-                        <div>
-                          <div className="mt-1 bg-text_bg inline-block">
-                            {movie.name}
+                    if (movie.category === 'OP/ED')
+                      return (
+                        <li className="mx-4 pb-10 hover:opacity-40 transition-all cursor-pointer">
+                          <div className="relative inline-block">
+                            <Image
+                              src={movie.thumbail}
+                              alt="story"
+                              width={174}
+                              height={97}
+                              className="brightness-50"
+                              onClick={openModal}
+                              id={movie.id}
+                            ></Image>{' '}
+                            <img
+                              className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABWUlEQVRoge2ZPU4DMRBGZ4GQBjpamhwAiYaGG3AIbsCPBAfgCpS0lLRcAAlRkvTUtElFgxA8CjQSIZD1rtcezeJXb/G9lWV/HosUCoXCd4BzYN06RzR88QQcWGeJgnlugZF1plawyCtwCWxaZ2vELyLKM3AIVNYZg1giotwBO9Y5awkQAXgHroEt67x/EiiiTIETYNU69wINRZQxsG+dfY6WIgAfwA2wbe0gIlEiygtwAQy9iyi27aBDEcWmHSQQAYt2kEhEydcOEoso6dtBJhGAN+CKVO0go4jSqB0Er0mA9r8hiomIHFVV9bDso5VMYWLYFZF7atqBB5Eg1qwDBDAWkWPPS2smIqcislcn0YiMu1Uvtl/3B6L7iqKlcSO5QEIR9zXe/cXK/VW3F8OHR5yPg9wP6NKeyl0QIOF+iO3+WSH/qdwFPyTcP7314jH0DBhY5ygUCv+cTyS4gJtcT/1lAAAAAElFTkSuQmCC"
+                            ></img>
                           </div>
-                        </div>
-                      </li>
-                    );
+                          <div>
+                            <div className="mt-1 bg-text_bg inline-block">
+                              {movie.name}
+                            </div>
+                          </div>
+                        </li>
+                      );
                   })}
                 </ul>
               </div>
@@ -138,4 +138,4 @@ function index({ index }: number) {
   );
 }
 
-export default index;
+export default OPED;

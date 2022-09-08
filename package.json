@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mui/material": "^5.10.4",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "nprogress": "^0.2.0",
@@ -14,17 +15,23 @@
     "react-dom": "18.1.0",
     "react-easy-swipe": "^0.0.22",
     "react-icons": "^4.4.0",
+    "react-image-gallery": "^1.2.9",
+    "react-material-ui-carousel": "^3.4.2",
     "react-modal-video": "^1.2.10",
     "react-multi-carousel": "^2.8.2",
     "react-player": "^2.10.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",
-    "reactjs-popup": "^2.0.5"
+    "reactjs-popup": "^2.0.5",
+    "swiper": "^8.3.2",
+    "swr": "^1.3.0"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
     "@types/nprogress": "^0.2.0",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.5",
+    "@types/react-image-gallery": "^1.0.5",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.2",
