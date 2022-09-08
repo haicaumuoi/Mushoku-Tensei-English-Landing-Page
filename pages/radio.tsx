@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 import { radioData } from '../public/content/radioVideo';
 import ReactPlayer from 'react-player';
 import dynamic from 'next/dynamic';
-import Modal from '../components/utilities/modal';
 
 export default function radio() {
   const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });

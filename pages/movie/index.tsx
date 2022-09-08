@@ -5,7 +5,7 @@ import Link from 'next/link';
 import ReactPlayer from 'react-player';
 import dynamic from 'next/dynamic';
 
-function index({ index }: number) {
+function index() {
   const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 
   const [video, setPlayVideo] = useState(movieData[0].youtubeLink);

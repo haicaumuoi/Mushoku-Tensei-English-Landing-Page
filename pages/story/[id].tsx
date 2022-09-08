@@ -45,7 +45,7 @@ function Story({
   const query = router.query;
 
   const uid = query.id;
-  const episode = episodeData.find((data) => data.id === uid);
+  const episode = episodeData.find((episode) => episode.id === uid);
 
   const [toggle, setToggle] = useState(episode?.img1);
 
@@ -96,7 +96,7 @@ function Story({
 
         <div className="w-2/3 h-img_story relative">
           <Image
-            src={toggle}
+            src={toggle!}
             alt="episode image"
             layout="fill"
             objectFit="contain"
@@ -113,7 +113,7 @@ function Story({
             id="div1"
           >
             <Image
-              src={episode?.img1}
+              src={episode?.img1!}
               alt="episode image"
               layout="fill"
               objectFit="contain"
@@ -129,7 +129,7 @@ function Story({
             id="div2"
           >
             <Image
-              src={episode?.img2}
+              src={episode?.img2!}
               alt="episode image"
               layout="fill"
               objectFit="contain"
@@ -145,7 +145,7 @@ function Story({
             id="div3"
           >
             <Image
-              src={episode?.img3}
+              src={episode?.img3!}
               alt="episode image"
               layout="fill"
               objectFit="contain"
@@ -161,7 +161,7 @@ function Story({
             id="div4"
           >
             <Image
-              src={episode?.img4}
+              src={episode?.img4!}
               alt="episode image"
               layout="fill"
               objectFit="contain"
@@ -177,7 +177,7 @@ function Story({
             id="div5"
           >
             <Image
-              src={episode?.img5}
+              src={episode?.img5!}
               alt="episode image"
               layout="fill"
               objectFit="contain"

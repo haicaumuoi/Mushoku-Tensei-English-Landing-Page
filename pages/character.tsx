@@ -108,7 +108,6 @@ export default function character() {
           indicatorContainerProps={{
             className: 'w-8/12 h-96  pt-10 border-t border-t-black ml-56 mt-20',
           }}
-          fullHeightHover={false}
         >
           {characterData.map((character) => {
             if (!character.facesImg && !character.characterImg) {
