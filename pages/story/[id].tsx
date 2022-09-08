@@ -43,9 +43,10 @@ function Story({
 }) {
   const router = useRouter();
   const query = router.query;
+  const arr = episodeData || [];
 
   const uid = query.id;
-  const episode = episodeData.find((episode) => episode.id === uid);
+  const episode = arr.find((episode) => episode.id === uid);
 
   const [toggle, setToggle] = useState(episode?.img1);
 
