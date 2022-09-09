@@ -20,7 +20,7 @@ export const characterData: {
     characterImg: '/images/characterDescription/noname/character.png',
     facesImg: '',
     avatar: '/images/character/noname.png',
-    desc: 'She is a 34-year-old unemployed virgin recluse. He was kicked out of his house, and shortly afterwards he died in an accident while trying to save a high school student who was about to be hit by a truck, and was reincarnated as Rudeus Greyrat. Taking the opportunity of his reincarnation, he decides to live seriously this time.',
+    desc: 'He is a 34-year-old unemployed virgin recluse. He was kicked out of his house, and shortly afterwards he died in an accident while trying to save a high school student who was about to be hit by a truck, and was reincarnated as Rudeus Greyrat. Taking the opportunity of his reincarnation, he decides to live seriously this time.',
   },
   {
     id: '3',
@@ -28,7 +28,7 @@ export const characterData: {
     characterImg: '/images/characterDescription/roxy/character.png',
     facesImg: '/images/characterDescription/roxy/faces.png',
     avatar: '/images/character/roxy.png',
-    desc: "He is a water king class magician of the 'Migurd' demon tribe. She is a long-lived Migurd and looks like a beautiful girl with jittery eyes and blue hair, but she is an adult. She was invited to the Greyrat family as Rudy's magic tutor and is Rudeus' mentor. Upon learning of the Fitoa teleportation incident, she joins former Paul associates Elinalise and Talhand in the search for Rudeus and his friends.",
+    desc: "She is a water king class magician of the 'Migurd' demon tribe. She is a long-lived Migurd and looks like a beautiful girl with jittery eyes and blue hair, but she is an adult. She was invited to the Greyrat family as Rudy's magic tutor and is Rudeus' mentor. Upon learning of the Fitoa teleportation incident, she joins former Paul associates Elinalise and Talhand in the search for Rudeus and his friends.",
   },
   {
     id: '4',
@@ -44,7 +44,7 @@ export const characterData: {
     characterImg: '/images/characterDescription/eris/character.png',
     facesImg: '/images/characterDescription/eris/faces.png',
     avatar: '/images/character/eris.png',
-    desc: "Daughter of the mayor of Roa, a large city in the territory of Fitoa.She is a beautiful red-haired girl with an unimaginably ferocious personality. She has a great talent with the sword, but she is not good at studying. She was studying under Rudeus, but was sent to the Demon's Continent with Rudeus after the transfer to Fitoa, where she and Ruijerd formed the adventurer party 'Dead End' and aim to return to the Kingdom of Asura.",
+    desc: "Daughter of the mayor of Roa, a large city in the territory of Fitoa. She is a beautiful red-haired girl with an unimaginably ferocious personality. She has a great talent with the sword, but she is not good at studying. She was studying under Rudeus, but was sent to the Demon's Continent with Rudeus after the transfer to Fitoa, where she and Ruijerd formed the adventurer party 'Dead End' and aim to return to the Kingdom of Asura.",
   },
   {
     id: '6',
