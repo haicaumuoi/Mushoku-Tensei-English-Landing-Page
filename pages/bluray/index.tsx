@@ -31,6 +31,7 @@ function index() {
                   alt="gallery"
                   width={193.5}
                   height={265.75}
+                  placeholder="blur"
                 ></Image>
                 <div className="font-mt_smol mt-3 bg-text_bg w-[40%]">
                   Chapter {data.id}

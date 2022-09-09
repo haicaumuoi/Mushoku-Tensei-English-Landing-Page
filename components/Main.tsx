@@ -5,7 +5,7 @@ type MainProps = {
 };
 
 function Main({ children }: MainProps) {
-  return <div>{children}</div>;
+  return <div className="hidden lg:block">{children}</div>;
 }
 
 export default Main;

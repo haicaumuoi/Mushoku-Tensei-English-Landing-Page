@@ -19,7 +19,7 @@ type DashboardLayoutProps = {
 
 export default function DashboardLayout({ children }: DashboardLayoutProps) {
   return (
-    <div className="flex">
+    <div className="lg:flex lg:bg-none bg-smallScreen bg-center bg-no-repeat h-screen lg:h-auto">
       <Sidebar />
       <div className="w-full overflow-y-visible">
         <Main>

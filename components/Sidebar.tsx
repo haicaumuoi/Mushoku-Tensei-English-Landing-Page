@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function Sidebar() {
   return (
-    <div className="flex flex-col h-screen bg-sidebar shadow w-75 bg-cover pl-6 py-10 sticky top-0 shrink-0">
+    <div className=" hidden lg:flex flex-col h-screen bg-sidebar shadow w-75 bg-cover pl-6 py-10 sticky top-0 shrink-0">
       <div className="space-y-3 z-10">
         <Link href={'/'}>
           <button className="flex items-center justify-center pr-5">
