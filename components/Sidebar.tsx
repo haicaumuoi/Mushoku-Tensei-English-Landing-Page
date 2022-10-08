@@ -127,7 +127,7 @@ function Sidebar() {
                 </span>
               </a>
               <a
-                href="https://github.com/HaiCauMuoi"
+                href="https://github.com/haicaumuoi"
                 target={'_blank'}
                 className="p-2 text-white text-2xl ml-3 hover:opacity-50 transition-all"
               >

@@ -4,7 +4,7 @@ import DashboardLayout from '../components/DashboardLayout';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 
-function MyApp({ Component, pageProps }: AppProps) {
+function Loading() {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
 
@@ -26,11 +26,24 @@ function MyApp({ Component, pageProps }: AppProps) {
         }, 3000)
       );
     };
-  }, [router.events]);
+  });
+
+  return () => {
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <h1 className="text-2xl font-bold">Loading...</h1>
+      </div>
+    );
+  };
+}
+
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <DashboardLayout>
-      <Component {...pageProps} />
-    </DashboardLayout>
+    <>
+      <DashboardLayout>
+        <Component {...pageProps} />
+      </DashboardLayout>
+    </>
   );
 }
 
